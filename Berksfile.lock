@@ -14,7 +14,7 @@
     "haproxy": {
       "locked_version": "0.1.0",
       "git": "git://github.com/sportngin-cookbooks/opsworks-haproxy.git",
-      "ref": "43b98c1c6b92b1eaea83cdbd69e6c4741dff114c"
+      "ref": "9212933b7d8aca6aa688cc61944dba9d3cbd366b"
     },
     "opsworks-rolling-restart": {
       "locked_version": "0.2.0",
