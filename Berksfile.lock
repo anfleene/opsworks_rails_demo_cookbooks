@@ -1,0 +1,136 @@
+{
+  "sources": {
+    "build-essential": {
+      "locked_version": "2.1.3"
+    },
+    "sysctl": {
+      "locked_version": "0.6.0"
+    },
+    "deploy": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/sportngin-cookbooks/opsworks-deploy.git",
+      "ref": "d52c69ebada01287c47d17dd0f0f6720781e5bdc"
+    },
+    "haproxy": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/sportngin-cookbooks/opsworks-haproxy.git",
+      "ref": "43b98c1c6b92b1eaea83cdbd69e6c4741dff114c"
+    },
+    "opsworks-rolling-restart": {
+      "locked_version": "0.2.0",
+      "git": "git://github.com/sportngin-cookbooks/opsworks-rolling-restart.git",
+      "ref": "0f3586b84ddc5ba85965ec4ca5d7009e2845dbec"
+    },
+    "opsworks-migrations": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/sportngin-cookbooks/opsworks-migrations.git",
+      "ref": "06be671c2622bfe475bca79be1e74b82812ed15a"
+    },
+    "opsworks-puma": {
+      "locked_version": "0.0.5",
+      "git": "git://github.com/sportngin-cookbooks/opsworks-puma.git",
+      "ref": "0bba472946af8052fc4d7a04d9238c1728fff784"
+    },
+    "opsworks-utils": {
+      "locked_version": "0.1.0",
+      "git": "git://github.com/sportngin-cookbooks/opsworks-utils.git",
+      "ref": "d1fb0bf351cc774fe321d4db7d93802ecc98b957"
+    },
+    "apache2": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "apache2"
+    },
+    "dependencies": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "dependencies"
+    },
+    "gem_support": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "gem_support"
+    },
+    "nginx": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "nginx"
+    },
+    "packages": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "packages"
+    },
+    "opsworks_agent_monit": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "opsworks_agent_monit"
+    },
+    "opsworks_bundler": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "opsworks_bundler"
+    },
+    "opsworks_commons": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "opsworks_commons"
+    },
+    "opsworks_initial_setup": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "opsworks_initial_setup"
+    },
+    "opsworks_nodejs": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "opsworks_nodejs"
+    },
+    "opsworks_rubygems": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "opsworks_rubygems"
+    },
+    "ruby": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "ruby"
+    },
+    "scm_helper": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "scm_helper"
+    },
+    "ssh_users": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "ssh_users"
+    },
+    "rails": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "rails"
+    },
+    "opsworks_rails_demo": {
+      "path": "."
+    },
+    "ohai": {
+      "locked_version": "2.0.1"
+    }
+  }
+}
