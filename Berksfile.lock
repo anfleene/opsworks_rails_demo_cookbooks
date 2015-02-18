@@ -9,12 +9,12 @@
     "deploy": {
       "locked_version": "1.0.0",
       "git": "git://github.com/sportngin-cookbooks/opsworks-deploy.git",
-      "ref": "d52c69ebada01287c47d17dd0f0f6720781e5bdc"
+      "ref": "a472580543bec6d63cce4dbea67d315ee3f9ffa6"
     },
     "haproxy": {
       "locked_version": "0.1.0",
       "git": "git://github.com/sportngin-cookbooks/opsworks-haproxy.git",
-      "ref": "9212933b7d8aca6aa688cc61944dba9d3cbd366b"
+      "ref": "ffb136ebf03e77ad62ffebca1b4d9bd8ee7c916a"
     },
     "opsworks-rolling-restart": {
       "locked_version": "0.2.0",
@@ -125,6 +125,12 @@
       "git": "git://github.com/aws/opsworks-cookbooks.git",
       "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
       "rel": "rails"
+    },
+    "unicorn": {
+      "locked_version": "1.0.0",
+      "git": "git://github.com/aws/opsworks-cookbooks.git",
+      "ref": "057396e87cc453a824e23fbfecb66076d25336d5",
+      "rel": "unicorn"
     },
     "opsworks_rails_demo": {
       "path": "."

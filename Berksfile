@@ -9,7 +9,7 @@ cookbook 'haproxy', github: "sportngin-cookbooks/opsworks-haproxy"
   cookbook cb, github: "sportngin-cookbooks/#{cb}"
 end
 # AWS opsworks-cookbooks
-%w[apache2 dependencies gem_support nginx packages opsworks_agent_monit opsworks_bundler opsworks_commons opsworks_initial_setup opsworks_nodejs opsworks_rubygems ruby scm_helper ssh_users rails].each do |cb|
+%w[apache2 dependencies gem_support nginx packages opsworks_agent_monit opsworks_bundler opsworks_commons opsworks_initial_setup opsworks_nodejs opsworks_rubygems ruby scm_helper ssh_users rails unicorn].each do |cb|
   cookbook cb, github: 'aws/opsworks-cookbooks', branch: 'release-chef-11.10', rel: cb
 end
 
